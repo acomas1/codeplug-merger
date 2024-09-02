@@ -7,9 +7,9 @@ These programs are designed to merge Anytone D878UVII Plus codeplug csv file.  T
 - Scanlist.csv
 - TalkGroups.csv
   
-- You will need to make sure the file names are unique.
-- Duplicate Channel and TalkGroups will be dropped and only the first one will be kept.  This maybe a problem if the same name has different attributes
-- Duplicate Zone, and ScanList will rename the second occurrence.    You will need to decide manually to keep them or not.
+You will need to make sure the file names are unique.
+Duplicate Channel and TalkGroups will be dropped and only the first one will be kept.  This maybe a problem if the same name has different attributes
+Duplicate Zone, and ScanList will rename the second occurrence.    You will need to decide manually to keep them or not.
         
 ## Setup
 - Best practice is load up the .rtf files in your CPS software and export to different directories.  If you take csv files from the Repeater Book, use the AnyTone 878 format.  It will have extra fields and will have missing data.  It is usually obvious what the missing values are, and you can can just insert them.  And just delete the extra columns.  In Excel you can just drag and drop fields downward to fill-in missing data.
