@@ -44,8 +44,8 @@ You will need to install Python 3.x and the most likely from the windows CMD lin
         - python scanlist_merge.py scanlist.csv scanlist_li.csv [optional_output_file.csv]
 
 ## Output File
-- Once you have your output_file.csv, you can import it with your CPS program.
+Once you have your output_file.csv, you can import it with your CPS program.
 
 # To Do
-- Have the program automatically handle missing data and remove extra columns from the Repeater Book csv files.
+Have the program automatically handle missing data and remove extra columns from the Repeater Book csv files.
 
