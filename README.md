@@ -36,8 +36,8 @@ These programs are designed to merge Anytone D878UVII Plus codeplug csv file.  T
             - python zone_merge.py zone.csv zone_li.csv [optional_output_file.csv]
 
 ### ScanList
-- Execution
+        - Execution
           -  Make sure you don't have your new file name open in another program like Excel
           - The code should keep the blank rows from both files in order.
-    - Execution Syntax:
-         - python scanlist_merge.py scanlist.csv scanlist_li.csv [optional_output_file.csv]
+            - Execution Syntax:
+                 - python scanlist_merge.py scanlist.csv scanlist_li.csv [optional_output_file.csv]
