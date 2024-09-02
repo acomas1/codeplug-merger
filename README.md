@@ -18,16 +18,16 @@ Duplicate Zone, and ScanList will rename the second occurrence.    You will need
     - Xxx_merge.py file1.csv file2.csv optional_output_filename.csv
     
 ## Installation instruction
-        - Go to the directory you have the channel_merge.py and your csv files
-         - You will need to install Python 3.x and the most likely from the windows CMD line do a 'pip install pandas' add a key package the code will need.
+Go to the directory you have the channel_merge.py and your csv files
+You will need to install Python 3.x and the most likely from the windows CMD line do a 'pip install pandas' add a key package the code will need.
 
 ### Channel
-    - Execution
-        - Make sure you don't have your new file name open in another program like Excel
-        - Make sure the 1st row of the 1st csv file has your Radio ID properly set
-        - The code should keep the blank rows from both files in order.
-        - Execution Syntax:
-            - python channel_merge.py channel.csv channel_li.csv [optional_output_file.csv]
+- Execution
+  - Make sure you don't have your new file name open in another program like Excel
+  - Make sure the 1st row of the 1st csv file has your Radio ID properly set
+  - The code should keep the blank rows from both files in order.
+  - Execution Syntax:
+      - python channel_merge.py channel.csv channel_li.csv [optional_output_file.csv]
             
 ### Zone
     - Execution
