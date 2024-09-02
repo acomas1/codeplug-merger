@@ -99,6 +99,21 @@ if __name__ == "__main__":
     file1 = sys.argv[1]
     file2 = sys.argv[2]
 
+    # make sure files exists
+    try:
+        with open(file1, 'r') as f:
+            pass
+    except IOError:
+        print(f"Error: The input file '{sys.argv[1]}' is not readable.")
+        sys.exit(1)
+
+    try:
+        with open(file2, 'r') as f:
+            pass
+    except IOError:
+        print(f"Error: The input file '{sys.argv[2]}' is not readable.")
+        sys.exit(1)
+
     # Optional output file name, default is 'merged_file.csv'
     output_file = sys.argv[3] if len(sys.argv) > 3 else 'zone_merged_file.csv'
 

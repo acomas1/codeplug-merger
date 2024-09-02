@@ -61,6 +61,8 @@ def merge_csv(file1, file2, output_file='merged_file.csv'):
 
     # Remove duplicate rows based on the 'Channel Name' column, keeping the first occurrence
     merged_df = merged_df.drop_duplicates(subset='Channel Name', keep='first')
+    # Remove blank Channel Name
+    merged_df = merged_df.dropna(subset='Channel Name')
 
     # Replace 'Radio ID' column with the value from the first row
     if 'Radio ID' in merged_df.columns:
@@ -81,6 +83,21 @@ if __name__ == "__main__":
     # Assign command-line arguments to variables
     file1 = sys.argv[1]
     file2 = sys.argv[2]
+
+    # make sure files exists
+    try:
+        with open(file1, 'r') as f:
+            pass
+    except IOError:
+        print(f"Error: The input file '{sys.argv[1]}' is not readable.")
+        sys.exit(1)
+
+    try:
+        with open(file2, 'r') as f:
+            pass
+    except IOError:
+        print(f"Error: The input file '{sys.argv[2]}' is not readable.")
+        sys.exit(1)
 
     # Optional output file name, default is 'merged_file.csv'
     output_file = sys.argv[3] if len(sys.argv) > 3 else 'channel_merged_file.csv'
