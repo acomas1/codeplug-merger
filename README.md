@@ -2,10 +2,11 @@
 Merge CSV files from CPS to create new codeplugs
 
 These programs are designed to merge Anytone D878UVII Plus codeplug csv file.  The following csv files are supported:
-        - Channel.csv
-        - Zone.csv
-        - Scanlist.csv
-         - TalkGroups
+- Channel.csv
+- Zone.csv
+- Scanlist.csv
+- TalkGroups.csv
+  
 - You will need to make sure the file names are unique.
 - Duplicate Channel and TalkGroups will be dropped and only the first one will be kept.  This maybe a problem if the same name has different attributes
 - Duplicate Zone, and ScanList will rename the second occurrence.    You will need to decide manually to keep them or not.
