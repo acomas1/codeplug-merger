@@ -87,3 +87,6 @@ if __name__ == "__main__":
 
     # Call the merge function
     merge_csv(file1, file2, output_file)
+
+    #end
+    
