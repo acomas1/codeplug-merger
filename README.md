@@ -2,7 +2,7 @@
 Merge CSV files from CPS to create new codeplugs
 
 Readme
-    • These programs are designed to merge Anytone D878UVII Plus codeplug csv file.  The following csv files are supported:
+These programs are designed to merge Anytone D878UVII Plus codeplug csv file.  The following csv files are supported:
         ○ Channel.csv
         ○ Zone.csv
         ○ Scanlist.csv
