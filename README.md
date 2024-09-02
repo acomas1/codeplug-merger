@@ -13,8 +13,9 @@ These programs are designed to merge Anytone D878UVII Plus codeplug csv file.  T
 ## Setup
 - Best practice is load up the .rtf files in your CPS software  and export to different directories.  
 - Then rename the files you want to merge and move them to the directory where you have installed the .py files
-          -Generic syntax:
-                        - Xxx_merge.py file1.csv file2.csv optional_output_filename.csv
+- Generic syntax:
+    - Xxx_merge.py file1.csv file2.csv optional_output_filename.csv
+    
 ## Installation instruction
         - Go to the directory you have the channel_merge.py and your csv files
         - Install Python
