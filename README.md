@@ -21,7 +21,6 @@ These programs are designed to merge Anytone D878UVII Plus codeplug csv file.  T
         - Install Python
         - Pip install pandas
 
-    
 ### Channel
     - Execution
         - Make sure you don't have your new file name open in another program like Excel
@@ -29,20 +28,13 @@ These programs are designed to merge Anytone D878UVII Plus codeplug csv file.  T
         - The code should keep the blank rows from both files in order.
         - Execution Syntax:
             - python channel_merge.py channel.csv channel_li.csv [optional_output_file.csv]
+            
 ### Zone
     - Execution
         - Make sure you don't have your new file name open in another program like Excel
         - The code should keep the blank rows from both files in order.
         - Execution Syntax:
             - python zone_merge.py zone.csv zone_li.csv [optional_output_file.csv]
-
-## Output File
-- Once you have your output_file.csv, you can import it with your CPS program.
-
-# To Do
-- Have the program automatically handle missing data from the Repeater Book csv files.
-
-- 
   
 ### ScanList
         - Execution
@@ -50,3 +42,10 @@ These programs are designed to merge Anytone D878UVII Plus codeplug csv file.  T
           - The code should keep the blank rows from both files in order.
             - Execution Syntax:
                  - python scanlist_merge.py scanlist.csv scanlist_li.csv [optional_output_file.csv]
+
+## Output File
+- Once you have your output_file.csv, you can import it with your CPS program.
+
+# To Do
+- Have the program automatically handle missing data from the Repeater Book csv files.
+
