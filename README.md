@@ -4,7 +4,8 @@ Merge CSV files from multiple codeplug exports to create new codeplugs.
 - Make backups of all files before starting.  Best practice is the name the backup with the backup date as part of the file name.
 - Use the same CPS version to create all exports and imports files
 
-These programs are designed to merge Anytone D878UVII Plus codeplug csv file.  The following csv files are supported:
+These programs have only been tested to merge Anytone D878UVII Plus codeplug csv file.  
+The following csv files are supported:
 - Channel.csv
 - Zone.csv
 - Scanlist.csv
