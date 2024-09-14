@@ -1,5 +1,6 @@
 # codeplug-merger
-Merge CSV files from CPS to create new codeplugs
+Merge CSV files from CPS to create new codeplugs.
+Use at your own risk.  Make backups of all files before starting.  Best practice is the name the backup with the backup date as part of the file name.
 
 These programs are designed to merge Anytone D878UVII Plus codeplug csv file.  The following csv files are supported:
 - Channel.csv
@@ -16,6 +17,7 @@ You will need to make sure the file names are unique.
 -  Next rename the files you want to merge and move them to the directory where you have installed the .py files
 - Generic syntax:
     - Xxx_merge.py file1.csv file2.csv optional_output_filename.csv
+- Import the output_filename.csv to the .rtf codeplug you want to update with the merged information
     
 ## Installation instruction
 Go to the directory you have the channel_merge.py and your csv files
@@ -44,7 +46,7 @@ You will need to install Python 3.x and the most likely from the windows CMD lin
         - python scanlist_merge.py scanlist.csv scanlist_li.csv [optional_output_file.csv]
 
 ## Output File
-Once you have your output_file.csv, you can import it with your CPS program.
+Once you have your output_file.csv, you can import it with your CPS program with the target codeplug already loaded up
 
 # To Do
 Have the program automatically handle missing data and remove extra columns from the Repeater Book csv files.
