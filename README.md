@@ -8,7 +8,7 @@ These programs are designed to merge Anytone D878UVII Plus codeplug csv file.  T
 - TalkGroups.csv
   
 You will need to make sure the file names are unique.
-Duplicate Channel and TalkGroups will be dropped and only the first one will be kept.  This maybe a problem if the same name has different attributes
+Duplicate Channel and TalkGroups will be dropped and only the first one will be kept.  This maybe a problem if the same name has different attributes.
 Duplicate Zone, and ScanList will rename the second occurrence.    You will need to decide manually to keep them or not.
         
 ## Setup
